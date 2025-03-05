@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.receipt {
+  background: repeating-linear-gradient(45deg, #f0f0f0 0px, #f0f0f0 20px, #ffffff 20px, #ffffff 40px);
+}
